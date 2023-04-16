@@ -14,6 +14,9 @@
 		DD4D02CB29EC599B00FAE587 /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02CA29EC599B00FAE587 /* BenchmarkTests.swift */; };
 		DD4D02D529EC599B00FAE587 /* BenchmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02D429EC599B00FAE587 /* BenchmarkUITests.swift */; };
 		DD4D02D729EC599B00FAE587 /* BenchmarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02D629EC599B00FAE587 /* BenchmarkUITestsLaunchTests.swift */; };
+		DD4D02E829EC5C1F00FAE587 /* BackpropToolsInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02E729EC5C1F00FAE587 /* BackpropToolsInterface.mm */; };
+		DD4D02EA29EC600400FAE587 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02E929EC600400FAE587 /* Benchmark.swift */; };
+		DD4D02ED29EC630F00FAE587 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4D02EC29EC630F00FAE587 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,11 @@
 		DD4D02D029EC599B00FAE587 /* BenchmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4D02D429EC599B00FAE587 /* BenchmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITests.swift; sourceTree = "<group>"; };
 		DD4D02D629EC599B00FAE587 /* BenchmarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD4D02E329EC5A5300FAE587 /* Benchmark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Benchmark-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD4D02E429EC5A5300FAE587 /* BackpropToolsInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackpropToolsInterface.h; sourceTree = "<group>"; };
+		DD4D02E729EC5C1F00FAE587 /* BackpropToolsInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackpropToolsInterface.mm; sourceTree = "<group>"; };
+		DD4D02E929EC600400FAE587 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		DD4D02EC29EC630F00FAE587 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4D02ED29EC630F00FAE587 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,7 @@
 				DD4D02C929EC599B00FAE587 /* BenchmarkTests */,
 				DD4D02D329EC599B00FAE587 /* BenchmarkUITests */,
 				DD4D02B729EC599A00FAE587 /* Products */,
+				DD4D02EB29EC630F00FAE587 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +104,14 @@
 		DD4D02B829EC599A00FAE587 /* Benchmark */ = {
 			isa = PBXGroup;
 			children = (
-				DD4D02B929EC599A00FAE587 /* BenchmarkApp.swift */,
+				DD4D02E729EC5C1F00FAE587 /* BackpropToolsInterface.mm */,
 				DD4D02BB29EC599A00FAE587 /* ContentView.swift */,
 				DD4D02BD29EC599B00FAE587 /* Assets.xcassets */,
 				DD4D02BF29EC599B00FAE587 /* Preview Content */,
+				DD4D02E429EC5A5300FAE587 /* BackpropToolsInterface.h */,
+				DD4D02B929EC599A00FAE587 /* BenchmarkApp.swift */,
+				DD4D02E329EC5A5300FAE587 /* Benchmark-Bridging-Header.h */,
+				DD4D02E929EC600400FAE587 /* Benchmark.swift */,
 			);
 			path = Benchmark;
 			sourceTree = "<group>";
@@ -125,6 +139,14 @@
 				DD4D02D629EC599B00FAE587 /* BenchmarkUITestsLaunchTests.swift */,
 			);
 			path = BenchmarkUITests;
+			sourceTree = "<group>";
+		};
+		DD4D02EB29EC630F00FAE587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4D02EC29EC630F00FAE587 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +217,7 @@
 				TargetAttributes = {
 					DD4D02B529EC599A00FAE587 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					DD4D02C529EC599B00FAE587 = {
 						CreatedOnToolsVersion = 14.2;
@@ -257,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4D02E829EC5C1F00FAE587 /* BackpropToolsInterface.mm in Sources */,
+				DD4D02EA29EC600400FAE587 /* Benchmark.swift in Sources */,
 				DD4D02BC29EC599A00FAE587 /* ContentView.swift in Sources */,
 				DD4D02BA29EC599A00FAE587 /* BenchmarkApp.swift in Sources */,
 			);
@@ -345,6 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/jonas/phd/projects/layer-in-c/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -399,6 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/jonas/phd/projects/layer-in-c/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -414,9 +441,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Benchmark/Preview Content\"";
+				DEVELOPMENT_TEAM = R787T8T58T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +461,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tools.backprop.Benchmark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Benchmark/Benchmark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,9 +473,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Benchmark/Preview Content\"";
+				DEVELOPMENT_TEAM = R787T8T58T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -460,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tools.backprop.Benchmark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Benchmark/Benchmark-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "78EBD579-1F79-4D4F-B73F-BD283C75B40D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "294B300D-C990-430B-B217-46A331F25A8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "forward(device, layer, input, output)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - 711d23a9ab306066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 4ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 4ul, layer_in_c::matrix::layouts::Fixed&lt;unsigned long, 7ul, 1ul&gt;, true&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 4ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 4ul, layer_in_c::matrix::layouts::Fixed&lt;unsigned long, 7ul, 1ul&gt;, true&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - ae488cdd297beb92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - b8e53bf58c7a6b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 1ul, (layer_in_c::nn::activation_functions::ActivationFunction)0, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 1ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 1ul, (layer_in_c::nn::activation_functions::ActivationFunction)0, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 1ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - 711d23a9ab306066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 3ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 3ul, layer_in_c::matrix::layouts::Fixed&lt;unsigned long, 7ul, 1ul&gt;, true&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 3ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 3ul, layer_in_c::matrix::layouts::Fixed&lt;unsigned long, 7ul, 1ul&gt;, true&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - b8e53bf58c7a6b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 1ul, (layer_in_c::nn::activation_functions::ActivationFunction)3, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 1ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 64ul, 1ul, (layer_in_c::nn::activation_functions::ActivationFunction)3, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 1ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "294B300D-C990-430B-B217-46A331F25A8E - b8e53bf58c7a6b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void layer_in_c::forward&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt;, layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 4ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 4ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt;, layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;(layer_in_c::devices::CPU_BLAS&lt;layer_in_c::devices::cpu::Specification&lt;layer_in_c::devices::math::CPU, layer_in_c::devices::random::CPU, layer_in_c::devices::logging::CPU&gt; &gt;&amp;, layer_in_c::nn::layers::dense::LayerBackward&lt;layer_in_c::nn::layers::dense::Specification&lt;float, unsigned long, 4ul, 64ul, (layer_in_c::nn::activation_functions::ActivationFunction)1, layer_in_c::nn::parameters::Adam, layer_in_c::MatrixDynamicTag, 100ul, true, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt; &gt; &gt;&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 4ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt; const&amp;, layer_in_c::Matrix&lt;layer_in_c::matrix::Specification&lt;float, unsigned long, 100ul, 64ul, layer_in_c::matrix::layouts::RowMajorAlignment&lt;unsigned long, 1ul&gt;, false&gt; &gt;&amp;)"
+                  moduleName = "Benchmark"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonas/phd/projects/layer-in-c/include/layer_in_c/nn/layers/dense/operations_cpu_blas.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

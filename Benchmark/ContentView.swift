@@ -1,26 +1,18 @@
-//
-//  ContentView.swift
-//  Benchmark
-//
-//  Created by Jonas Eschmann on 16/04/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var benchmark = Benchmark()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+            Text("Loop count: \(benchmark.loopCount)")
+                .padding()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+            Button(action: {
+                benchmark.startLoop()
+            }) {
+                Text("Start loop")
+            }
+        }
     }
 }
