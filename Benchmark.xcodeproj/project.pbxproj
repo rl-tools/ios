@@ -17,6 +17,17 @@
 		DD4D02E829EC5C1F00FAE587 /* BackpropToolsInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02E729EC5C1F00FAE587 /* BackpropToolsInterface.mm */; };
 		DD4D02EA29EC600400FAE587 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D02E929EC600400FAE587 /* Benchmark.swift */; };
 		DD4D02ED29EC630F00FAE587 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4D02EC29EC630F00FAE587 /* Accelerate.framework */; };
+		DD9C89FD29ED8F7B00702A0C /* benchmark-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD9C89FC29ED8F7B00702A0C /* benchmark-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD9C8A0229ED8F7B00702A0C /* benchmark_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A0129ED8F7B00702A0C /* benchmark_watchApp.swift */; };
+		DD9C8A0429ED8F7B00702A0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A0329ED8F7B00702A0C /* ContentView.swift */; };
+		DD9C8A0629ED8F7C00702A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9C8A0529ED8F7C00702A0C /* Assets.xcassets */; };
+		DD9C8A0929ED8F7C00702A0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9C8A0829ED8F7C00702A0C /* Preview Assets.xcassets */; };
+		DD9C8A1329ED8F7C00702A0C /* benchmark_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A1229ED8F7C00702A0C /* benchmark_watch_Watch_AppTests.swift */; };
+		DD9C8A1D29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A1C29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITests.swift */; };
+		DD9C8A1F29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A1E29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITestsLaunchTests.swift */; };
+		DD9C8A3129ED9B2500702A0C /* BackpropToolsInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A2E29ED9B2500702A0C /* BackpropToolsInterface.mm */; };
+		DD9C8A3229ED9B2500702A0C /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C8A2F29ED9B2500702A0C /* Benchmark.swift */; };
+		DD9C8A3429ED9BEB00702A0C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C8A3329ED9BEB00702A0C /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +45,42 @@
 			remoteGlobalIDString = DD4D02B529EC599A00FAE587;
 			remoteInfo = Benchmark;
 		};
+		DD9C89FE29ED8F7B00702A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4D02AE29EC599A00FAE587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9C89FB29ED8F7B00702A0C;
+			remoteInfo = "benchmark-watch Watch App";
+		};
+		DD9C8A0F29ED8F7C00702A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4D02AE29EC599A00FAE587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9C89FB29ED8F7B00702A0C;
+			remoteInfo = "benchmark-watch Watch App";
+		};
+		DD9C8A1929ED8F7C00702A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4D02AE29EC599A00FAE587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9C89FB29ED8F7B00702A0C;
+			remoteInfo = "benchmark-watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD9C8A2229ED8F7C00702A0C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD9C89FD29ED8F7B00702A0C /* benchmark-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DD4D02B629EC599A00FAE587 /* Benchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +98,22 @@
 		DD4D02E729EC5C1F00FAE587 /* BackpropToolsInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackpropToolsInterface.mm; sourceTree = "<group>"; };
 		DD4D02E929EC600400FAE587 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
 		DD4D02EC29EC630F00FAE587 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DD9C89F729ED8F7B00702A0C /* benchmark-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "benchmark-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C89FC29ED8F7B00702A0C /* benchmark-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "benchmark-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C8A0129ED8F7B00702A0C /* benchmark_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmark_watchApp.swift; sourceTree = "<group>"; };
+		DD9C8A0329ED8F7B00702A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD9C8A0529ED8F7C00702A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9C8A0829ED8F7C00702A0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD9C8A0E29ED8F7C00702A0C /* benchmark-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "benchmark-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C8A1229ED8F7C00702A0C /* benchmark_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmark_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DD9C8A1829ED8F7C00702A0C /* benchmark-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "benchmark-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C8A1C29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmark_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DD9C8A1E29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benchmark_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD9C8A2D29ED9B2500702A0C /* Benchmark-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Benchmark-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD9C8A2E29ED9B2500702A0C /* BackpropToolsInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackpropToolsInterface.mm; sourceTree = "<group>"; };
+		DD9C8A2F29ED9B2500702A0C /* Benchmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		DD9C8A3029ED9B2500702A0C /* BackpropToolsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackpropToolsInterface.h; sourceTree = "<group>"; };
+		DD9C8A3329ED9BEB00702A0C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +139,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD9C89F929ED8F7B00702A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C8A3429ED9BEB00702A0C /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A0B29ED8F7C00702A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A1529ED8F7C00702A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +170,9 @@
 				DD4D02B829EC599A00FAE587 /* Benchmark */,
 				DD4D02C929EC599B00FAE587 /* BenchmarkTests */,
 				DD4D02D329EC599B00FAE587 /* BenchmarkUITests */,
+				DD9C8A0029ED8F7B00702A0C /* benchmark-watch Watch App */,
+				DD9C8A1129ED8F7C00702A0C /* benchmark-watch Watch AppTests */,
+				DD9C8A1B29ED8F7C00702A0C /* benchmark-watch Watch AppUITests */,
 				DD4D02B729EC599A00FAE587 /* Products */,
 				DD4D02EB29EC630F00FAE587 /* Frameworks */,
 			);
@@ -97,6 +184,10 @@
 				DD4D02B629EC599A00FAE587 /* Benchmark.app */,
 				DD4D02C629EC599B00FAE587 /* BenchmarkTests.xctest */,
 				DD4D02D029EC599B00FAE587 /* BenchmarkUITests.xctest */,
+				DD9C89F729ED8F7B00702A0C /* benchmark-watch.app */,
+				DD9C89FC29ED8F7B00702A0C /* benchmark-watch Watch App.app */,
+				DD9C8A0E29ED8F7C00702A0C /* benchmark-watch Watch AppTests.xctest */,
+				DD9C8A1829ED8F7C00702A0C /* benchmark-watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +235,50 @@
 		DD4D02EB29EC630F00FAE587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD9C8A3329ED9BEB00702A0C /* Accelerate.framework */,
 				DD4D02EC29EC630F00FAE587 /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9C8A0029ED8F7B00702A0C /* benchmark-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C8A3029ED9B2500702A0C /* BackpropToolsInterface.h */,
+				DD9C8A2E29ED9B2500702A0C /* BackpropToolsInterface.mm */,
+				DD9C8A2D29ED9B2500702A0C /* Benchmark-Bridging-Header.h */,
+				DD9C8A2F29ED9B2500702A0C /* Benchmark.swift */,
+				DD9C8A0129ED8F7B00702A0C /* benchmark_watchApp.swift */,
+				DD9C8A0329ED8F7B00702A0C /* ContentView.swift */,
+				DD9C8A0529ED8F7C00702A0C /* Assets.xcassets */,
+				DD9C8A0729ED8F7C00702A0C /* Preview Content */,
+			);
+			path = "benchmark-watch Watch App";
+			sourceTree = "<group>";
+		};
+		DD9C8A0729ED8F7C00702A0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C8A0829ED8F7C00702A0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD9C8A1129ED8F7C00702A0C /* benchmark-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C8A1229ED8F7C00702A0C /* benchmark_watch_Watch_AppTests.swift */,
+			);
+			path = "benchmark-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DD9C8A1B29ED8F7C00702A0C /* benchmark-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C8A1C29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITests.swift */,
+				DD9C8A1E29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "benchmark-watch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +337,76 @@
 			productReference = DD4D02D029EC599B00FAE587 /* BenchmarkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DD9C89F629ED8F7B00702A0C /* benchmark-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C8A2A29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch" */;
+			buildPhases = (
+				DD9C89F529ED8F7B00702A0C /* Resources */,
+				DD9C8A2229ED8F7C00702A0C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9C89FF29ED8F7B00702A0C /* PBXTargetDependency */,
+			);
+			name = "benchmark-watch";
+			productName = "benchmark-watch";
+			productReference = DD9C89F729ED8F7B00702A0C /* benchmark-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DD9C89FB29ED8F7B00702A0C /* benchmark-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C8A2929ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch App" */;
+			buildPhases = (
+				DD9C89F829ED8F7B00702A0C /* Sources */,
+				DD9C89F929ED8F7B00702A0C /* Frameworks */,
+				DD9C89FA29ED8F7B00702A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "benchmark-watch Watch App";
+			productName = "benchmark-watch Watch App";
+			productReference = DD9C89FC29ED8F7B00702A0C /* benchmark-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9C8A0D29ED8F7C00702A0C /* benchmark-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C8A2B29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch AppTests" */;
+			buildPhases = (
+				DD9C8A0A29ED8F7C00702A0C /* Sources */,
+				DD9C8A0B29ED8F7C00702A0C /* Frameworks */,
+				DD9C8A0C29ED8F7C00702A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9C8A1029ED8F7C00702A0C /* PBXTargetDependency */,
+			);
+			name = "benchmark-watch Watch AppTests";
+			productName = "benchmark-watch Watch AppTests";
+			productReference = DD9C8A0E29ED8F7C00702A0C /* benchmark-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9C8A1729ED8F7C00702A0C /* benchmark-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C8A2C29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch AppUITests" */;
+			buildPhases = (
+				DD9C8A1429ED8F7C00702A0C /* Sources */,
+				DD9C8A1529ED8F7C00702A0C /* Frameworks */,
+				DD9C8A1629ED8F7C00702A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9C8A1A29ED8F7C00702A0C /* PBXTargetDependency */,
+			);
+			name = "benchmark-watch Watch AppUITests";
+			productName = "benchmark-watch Watch AppUITests";
+			productReference = DD9C8A1829ED8F7C00702A0C /* benchmark-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +429,21 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DD4D02B529EC599A00FAE587;
 					};
+					DD9C89F629ED8F7B00702A0C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DD9C89FB29ED8F7B00702A0C = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					DD9C8A0D29ED8F7C00702A0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD9C89FB29ED8F7B00702A0C;
+					};
+					DD9C8A1729ED8F7C00702A0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD9C89FB29ED8F7B00702A0C;
+					};
 				};
 			};
 			buildConfigurationList = DD4D02B129EC599A00FAE587 /* Build configuration list for PBXProject "Benchmark" */;
@@ -245,6 +462,10 @@
 				DD4D02B529EC599A00FAE587 /* Benchmark */,
 				DD4D02C529EC599B00FAE587 /* BenchmarkTests */,
 				DD4D02CF29EC599B00FAE587 /* BenchmarkUITests */,
+				DD9C89F629ED8F7B00702A0C /* benchmark-watch */,
+				DD9C89FB29ED8F7B00702A0C /* benchmark-watch Watch App */,
+				DD9C8A0D29ED8F7C00702A0C /* benchmark-watch Watch AppTests */,
+				DD9C8A1729ED8F7C00702A0C /* benchmark-watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +488,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DD4D02CE29EC599B00FAE587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C89F529ED8F7B00702A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C89FA29ED8F7B00702A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C8A0929ED8F7C00702A0C /* Preview Assets.xcassets in Resources */,
+				DD9C8A0629ED8F7C00702A0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A0C29ED8F7C00702A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A1629ED8F7C00702A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,6 +555,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD9C89F829ED8F7B00702A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C8A3129ED9B2500702A0C /* BackpropToolsInterface.mm in Sources */,
+				DD9C8A3229ED9B2500702A0C /* Benchmark.swift in Sources */,
+				DD9C8A0429ED8F7B00702A0C /* ContentView.swift in Sources */,
+				DD9C8A0229ED8F7B00702A0C /* benchmark_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A0A29ED8F7C00702A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C8A1329ED8F7C00702A0C /* benchmark_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9C8A1429ED8F7C00702A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C8A1F29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DD9C8A1D29ED8F7C00702A0C /* benchmark_watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -316,6 +595,21 @@
 			isa = PBXTargetDependency;
 			target = DD4D02B529EC599A00FAE587 /* Benchmark */;
 			targetProxy = DD4D02D129EC599B00FAE587 /* PBXContainerItemProxy */;
+		};
+		DD9C89FF29ED8F7B00702A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9C89FB29ED8F7B00702A0C /* benchmark-watch Watch App */;
+			targetProxy = DD9C89FE29ED8F7B00702A0C /* PBXContainerItemProxy */;
+		};
+		DD9C8A1029ED8F7C00702A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9C89FB29ED8F7B00702A0C /* benchmark-watch Watch App */;
+			targetProxy = DD9C8A0F29ED8F7C00702A0C /* PBXContainerItemProxy */;
+		};
+		DD9C8A1A29ED8F7C00702A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9C89FB29ED8F7B00702A0C /* benchmark-watch Watch App */;
+			targetProxy = DD9C8A1929ED8F7C00702A0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -571,6 +865,183 @@
 			};
 			name = Release;
 		};
+		DD9C8A2029ED8F7C00702A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				INFOPLIST_KEY_CFBundleDisplayName = "benchmark-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD9C8A2129ED8F7C00702A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				INFOPLIST_KEY_CFBundleDisplayName = "benchmark-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD9C8A2329ED8F7C00702A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"benchmark-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R787T8T58T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "benchmark-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "benchmark-watch Watch App/Benchmark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		DD9C8A2429ED8F7C00702A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"benchmark-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R787T8T58T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "benchmark-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "benchmark-watch Watch App/Benchmark-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		DD9C8A2529ED8F7C00702A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benchmark-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/benchmark-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DD9C8A2629ED8F7C00702A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benchmark-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/benchmark-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		DD9C8A2729ED8F7C00702A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "benchmark-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DD9C8A2829ED8F7C00702A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R787T8T58T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tools.backprop.benchmark-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "benchmark-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,6 +1077,42 @@
 			buildConfigurations = (
 				DD4D02E129EC599B00FAE587 /* Debug */,
 				DD4D02E229EC599B00FAE587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C8A2929ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C8A2329ED8F7C00702A0C /* Debug */,
+				DD9C8A2429ED8F7C00702A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C8A2A29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C8A2029ED8F7C00702A0C /* Debug */,
+				DD9C8A2129ED8F7C00702A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C8A2B29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C8A2529ED8F7C00702A0C /* Debug */,
+				DD9C8A2629ED8F7C00702A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C8A2C29ED8F7C00702A0C /* Build configuration list for PBXNativeTarget "benchmark-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C8A2729ED8F7C00702A0C /* Debug */,
+				DD9C8A2829ED8F7C00702A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
