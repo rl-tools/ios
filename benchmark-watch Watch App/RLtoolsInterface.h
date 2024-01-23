@@ -1,5 +1,5 @@
 //
-//  BackpropToolsInterface.h
+//  RLtoolsInterface.h
 //  Benchmark
 //
 //  Created by Jonas Eschmann on 16/04/2023.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BackpropToolsInterface : NSObject
+@interface RLtoolsInterface : NSObject
 
 - (void)run;
 

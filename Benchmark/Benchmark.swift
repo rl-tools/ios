@@ -4,7 +4,7 @@ import Combine
 
 class Benchmark: ObservableObject {
     @Published var loopCount: Int = 0
-    private let bpt_interface = BackpropToolsInterface()
+    private let bpt_interface = RLtoolsInterface()
 
     init() {
         self.startLoop()
