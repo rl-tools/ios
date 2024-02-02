@@ -18,14 +18,6 @@
 @implementation RLtoolsInterface
 - (void)run {
     run();
-    /*
-    TrainingState<TrainingConfig> ts;
-    training_init(ts, 0);
-    for(int i = 0; i < 10000; i++){
-        training_step(ts);
-    }
-    std::cout << "finished" << std::endl;
-     */
 }
 @end
 
